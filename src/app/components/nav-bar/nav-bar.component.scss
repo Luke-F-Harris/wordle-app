@@ -1,0 +1,45 @@
+.nav-bar {
+    background: blue;
+}
+
+.main-logo {
+    background: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 70px;
+}
+
+.main-logo h1 {
+    font-size: 48px;
+    background-image: url(../assets/images/main-logo-background.jpg);
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* For Safari/WebKit */
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    /* For Safari/WebKit */
+    animation: moveImage 25s infinite linear;
+}
+
+@keyframes moveImage {
+    0% {
+        background-position: center center;
+    }
+
+    25% {
+        background-position: top right;
+    }
+
+    50% {
+        background-position: center center;
+    }
+
+    75% {
+        background-position: bottom left;
+    }
+
+    100% {
+        background-position: center center;
+    }
+}
