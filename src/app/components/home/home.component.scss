@@ -23,12 +23,18 @@
 
 .button-list {
     padding: 0;
-    
+
     list-style: none;
     display: flex;
     justify-content: space-between;
 }
 
-.button-list-item { 
+.button-list-item {
     padding: 10px;
+}
+
+button {
+  font-size: 15pt;
+  padding: 20px 30px 20px 30px;
+  min-width: 120px;
 }
