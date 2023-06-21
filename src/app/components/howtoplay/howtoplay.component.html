@@ -1,0 +1,25 @@
+<div class="main-container">
+  <div class="main-description">
+    <h1>How To Play</h1>
+    <h2>Guess the Wordle in 6 tries.</h2>
+
+    <ul class="rule-list">
+      <li><p>Each guess must be a valid 5-letter word.</p></li>
+      <li>
+        <p>
+          The color of the tiles will change to show how close your guess was to
+          the word.
+        </p>
+      </li>
+    </ul>
+  </div>
+
+  <div class="examples">
+    <h2>Examples</h2>
+    <div class="title-container">
+      <span class="tile-letter" *ngFor="let i; in: 'WEARY'">
+        <p>{{ i }}</p></span
+      >
+    </div>
+  </div>
+</div>
