@@ -10,6 +10,7 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { MatButtonModule } from '@angular/material/button';
 import { HowtoplayComponent } from './components/howtoplay/howtoplay.component';
 import { MatDialogModule } from '@angular/material/dialog';
+import { TileComponent } from './components/tile/tile.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { MatDialogModule } from '@angular/material/dialog';
     WordleComponent,
     HomeComponent,
     NavBarComponent,
-    HowtoplayComponent
+    HowtoplayComponent,
+    TileComponent,
   ],
   imports: [
     BrowserModule,

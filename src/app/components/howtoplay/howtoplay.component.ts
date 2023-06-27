@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { MatDialogModule } from '@angular/material/dialog';
+import { Status } from '../tile/tile.component';
 
 @Component({
   selector: 'app-howtoplay',
@@ -7,5 +7,7 @@ import { MatDialogModule } from '@angular/material/dialog';
   styleUrls: ['./howtoplay.component.scss']
 })
 export class HowtoplayComponent {
+  public name : string = "name";
 
+  public status = Status;
 }

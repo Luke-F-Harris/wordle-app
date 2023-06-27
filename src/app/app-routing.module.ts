@@ -5,7 +5,7 @@ import { HomeComponent } from './components/home/home.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent, data: { hideNavbar: true }},
-  { path: 'wordle', component: WordleComponent }
+  { path: 'game', component: WordleComponent }
 ];
 
 @NgModule({

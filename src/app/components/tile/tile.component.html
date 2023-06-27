@@ -1,0 +1,9 @@
+<p
+  [ngClass]="{
+    exact: status === statusEnum.Exact,
+    contains: status === statusEnum.Contains,
+    notin: status === statusEnum.NotIn
+  }"
+>
+  {{ letter }}
+</p>
